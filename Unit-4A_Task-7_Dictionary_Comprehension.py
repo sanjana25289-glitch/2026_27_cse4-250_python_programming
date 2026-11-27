@@ -1,0 +1,8 @@
+squares = {x: x * x for x in range(1, 7)}
+print("Squares dict:", squares)
+
+even_squares = {x: x * x for x in range(1, 11) if x % 2 == 0}
+print("Even squares:", even_squares)
+
+
+
